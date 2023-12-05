@@ -9,7 +9,6 @@ generare 10 indirizzi email e stamparli in pagina all'interno di una lista.
 Create una pagina "graziosa" senza utilizzare bootstrap.
 Bonus
 Far comparire gli indirizzi email solamente quando sono stati tutti generati.
-
 ```
 
 #### SVOLGIMENTO
