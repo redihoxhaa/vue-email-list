@@ -1,0 +1,128 @@
+/* #region RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+/* #endregion RESET */
+
+/* #region TYPOGRAPHY */
+
+:root {
+    --main-color: #3983e8;
+    --secondary-color: #fdb904;
+}
+
+/* #endregion TYPOGRAPHY */
+
+/* #region UTILITIES */
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 1s forwards;
+}
+
+/* #endregion UTILITIES */
+
+/* #region MAIN */
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: -1.875rem;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: end;
+}
+
+.list-container {
+    width: 100%;
+    margin: .625rem;
+    padding: 1.875rem;
+    border: 8px dashed white;
+    border-radius: .625rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+li {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+li>span {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    padding: .3125rem 0;
+    text-align: center;
+    border-radius: .625rem;
+    margin-right: 1.25rem;
+    color: var(--secondary-color);
+}
+
+/* #endregion MAIN */
+
+
+/* #region MEDIA QUERIES */
+
+
+/* #endregion MEDIA QUERIES */
+
+/* #region ANIMATIONS */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* #endregion ANIMATIONS */
